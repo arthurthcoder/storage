@@ -1,0 +1,29 @@
+{
+    "name": "basecode/storage",
+    "description": "Storage data, sessions, cookies...",
+    "keywords": [
+        "BaseCode",
+        "Storage",
+        "Thcoder"
+    ],
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arthur Henrique",
+            "email": "arthurthcoder@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "BaseCode\\Storage\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=7.0"
+    }
+}
